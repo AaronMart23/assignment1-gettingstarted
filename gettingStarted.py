@@ -1,6 +1,7 @@
 ### welcome_assignment_answers
 ### Input - All nine questions given in the assignment.
 ### Output - The right answer for the specific question.
+### Aaron Martino Fall 2024
 
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
@@ -18,11 +19,11 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "3"  # DNS belongs to the Application layer in the OSI model, but the Transport layer in TCP/IP model
+        answer = "3"  
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = "3"  # ICMP belongs to the Network layer in the TCP/IP model
+        answer = "3"  
     else:
-        # If the question doesn't match any of the known questions, this will catch it
+    
         answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
     return answer
 
