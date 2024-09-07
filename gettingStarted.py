@@ -19,13 +19,15 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "5"  
+        answer = int('5')
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = "3"  
-    else:
-    
-        answer = "Answer is Invalid "
-    return (answer)
+        answer = int('3')
+    else: 
+        ### you should understand why this else case should be included
+        ### what happens if there is a typo in one of the questions?
+        ### maybe put something here to flag an issue
+        answer = "local variable 'answer' referenced before assignment"
+    return(answer)
 
 # Complete all the questions.
 
