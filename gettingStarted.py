@@ -2,6 +2,7 @@
 ### Input - All nine questions given in the assignment.
 ### Output - The right answer for the specific question.
 ### Aaron Martino Fall 2024
+    answer = ""
 
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
@@ -18,6 +19,8 @@ def welcome_assignment_answers(question):
         answer = "bec78115f2723e6d4f5643f24d2e8d88ca4bc75a1c1d58e12fe4f0186a381805"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
+    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "pcap"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         answer = int('5')
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
